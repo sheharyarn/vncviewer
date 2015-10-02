@@ -22,6 +22,12 @@ $ vncviewer someurl.com:7902
 
 ## Installation
 
+#### via Homebrew:
+
+```sh
+$ brew install sheharyarn/tap/vncviewer
+```
+
 #### via Script:
 
 ```sh
