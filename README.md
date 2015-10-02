@@ -5,19 +5,6 @@ VNCviewer for OSX
 
 
 
-## Installation
-
-### Manual:
-
-```sh
-$ git clone https://github.com/sheharyarn/vncviewer.git /tmp/vncviewer
-$ mv /tmp/vncviewer/vncviewer /usr/local/bin/vncviewer
-$ chmod +x /usr/local/bin/vncviewer
-$ rm -rf /tmp/vncviewer
-```
-
-
-
 ## Usage
 
 ```sh
@@ -29,6 +16,25 @@ Examples:
 ```sh
 $ vncviewer 192.168.1.45          # Defaults to port 5900 for OSX Clients
 $ vncviewer someurl.com:7902
+```
+
+
+
+## Installation
+
+#### via Script:
+
+```sh
+$ bash -c "$(curl -fsSL https://github.com/sheharyarn/vncviewer/raw/master/install.sh)"
+```
+
+#### Manual:
+
+```sh
+$ git clone https://github.com/sheharyarn/vncviewer.git /tmp/vncviewer
+$ mv /tmp/vncviewer/vncviewer /usr/local/bin/vncviewer
+$ chmod +x /usr/local/bin/vncviewer
+$ rm -rf /tmp/vncviewer
 ```
 
 
