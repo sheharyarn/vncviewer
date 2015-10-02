@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Simple command-line utility to invoke VNC
+# connections from command-line on MacOS X
+
+# Uses the OSX's built-in screen sharing app
+
+open vnc://\$1
+
+
