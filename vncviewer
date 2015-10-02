@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Simple command-line utility to invoke VNC
 # connections from command-line on MacOS X
