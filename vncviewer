@@ -5,6 +5,30 @@
 
 # Uses the OSX's built-in screen sharing app
 
-open vnc://\$1
+
+banner() {
+    echo "usage: vncviewer host[:port]"
+    echo "       vncviewer example.com"
+    echo "       vncviewer 1.1.1.1:5900"
+    echo ""
+}
+
+
+
+## MAIN 
+## ----
+
+if [[ $# -eq 0 ]] ; then
+    banner
+else
+    case $1 in
+        -h)
+            banner ;;
+        --help)
+            banner ;;
+        *)
+            open vnc://$1 ;;
+    esac
+fi
 
 
